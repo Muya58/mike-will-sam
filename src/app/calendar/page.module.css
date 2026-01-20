@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+    max-width: 800px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.dateBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: var(--radius-sm);
+    width: 60px;
+    height: 60px;
+}
+
+.day {
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+
+.month {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+}
+
+.badge {
+    font-size: 10px;
+    background: var(--color-primary-glow);
+    color: var(--color-primary);
+    width: fit-content;
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.actionBtn {
+    background: transparent;
+    border: 1px solid var(--color-border);
+    color: var(--color-text-main);
+    padding: 8px 16px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.actionBtn:hover {
+    background: white;
+    color: black;
+}

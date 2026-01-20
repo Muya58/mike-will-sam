@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    color: white;
+    padding: 8px 16px;
+    border-radius: var(--radius-sm);
+    font-family: inherit;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--spacing-md);
+}
+
+.list {
+    list-style: none;
+    margin-top: var(--spacing-md);
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 14px;
+}
