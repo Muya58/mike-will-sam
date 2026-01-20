@@ -6,6 +6,6 @@ import { createClient } from '@supabase/supabase-js'
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://placeholder.supabase.co'
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'placeholder'
 
-console.log('Initializing Supabase Client with URL:', supabaseUrl.substring(0, 20) + '...');
+console.log('Initializing Supabase Client (Final Fix Version) with URL:', supabaseUrl.substring(0, 20) + '...');
 
 export const supabase = createClient(supabaseUrl, supabaseKey);
